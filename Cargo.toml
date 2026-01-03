@@ -88,3 +88,7 @@ strtoul = []
 strtoull = []
 strtoumax = []
 utoa = []
+
+[package.metadata.docs.rs]
+# Add optional features so all functions appear in docs-rs
+features = ["all", "alloc", "signal", "signal-cs"]
